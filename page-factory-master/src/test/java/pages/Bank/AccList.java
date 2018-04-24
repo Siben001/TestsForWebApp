@@ -15,7 +15,7 @@ import ru.yandex.qatools.htmlelements.loader.decorator.HtmlElementLocatorFactory
 public class AccList extends Page {
 
     @ElementTitle("Информация")
-    @FindBy(name = "acc_list")
+    @FindBy(name = "db_acc_list")
     public TextBlock acc_list;
 
     @ElementTitle("Информация")
